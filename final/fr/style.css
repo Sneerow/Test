@@ -1,0 +1,25 @@
+*
+{
+    font-family: arial, verdana, georgia, sans-serif;
+}
+
+h1
+{
+    font-size: 3em;
+    text-align: center;
+}
+
+p
+{
+    font-size: 1em;
+}
+
+a
+{
+    font-decoration: none;
+}
+
+a[title="button"]
+{
+    text-align: center;
+}
