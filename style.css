@@ -11,11 +11,6 @@ body
 h1
 {
     font-size: 4.5em;
-
-}
-
-h1#name
-{
     text-align: center;
     background-color: #033d9a;
     color: #fff;

@@ -11,6 +11,9 @@ body
 h1
 {
     font-size: 4.5em;
+    text-align: center;
+    background-color: #033d9a;
+    color: #fff;
 }
 
 p
@@ -41,13 +44,6 @@ div#title
 {
     width: auto;
     margin-top: 5.5em;
-}
-
-h1#name
-{
-    text-align: center;
-    background-color: #033d9a;
-    color: #fff;
 }
 
 a#menu1
