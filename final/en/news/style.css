@@ -5,7 +5,7 @@
 
 body
 {
-    background-color: #000
+    background-color: #000;
 }
 
 h1
@@ -25,7 +25,8 @@ div.chara
     margin-bottom: 2em;
 }
 
-div.chara img {
+div.chara img
+{
     width: 100%;
     height: auto;
 }
@@ -52,8 +53,7 @@ h1#name
 a#menu1
 {
     text-decoration: none;
-    font-weight: bold;
-    color: #fff;
+    color: #838383;
     position: absolute;
     left: 11%;
     transform: translate(-50%);
@@ -62,7 +62,8 @@ a#menu1
 a#menu2
 {
     text-decoration: none;
-    color: #838383;
+    font-weight: bold;
+    color: #fff;
     position: absolute;
     left: 22%;
     transform: translate(-50%);
@@ -120,15 +121,4 @@ a#menu8
     position: absolute;
     left: 88%;
     transform: translate(-50%);
-}
-
-div.octo
-{
-    text-align: center;
-    width: auto;
-}
-
-div.octo img
-{
-    width: 19.5%;
 }
