@@ -10,10 +10,11 @@ body
 
 h1
 {
-    font-size: 4.5em;
+    font-size: 500%;
     text-align: center;
     background-color: #033d9a;
     color: #fff;
+    margin-top: 10%;
 }
 
 div#english
@@ -38,7 +39,7 @@ div#french
 
 a
 {
-    font-size: 3em;
+    font-size: 300%;
     text-decoration: none;
     font-weight: bold;
     color: #838383;
