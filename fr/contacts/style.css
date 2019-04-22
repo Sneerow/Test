@@ -130,9 +130,37 @@ div.member *
     color: #fff;
 }
 
+div.member h2,ul
+{
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+
 div#m1
 {
-    width: 40%;
-    height: 7em;
+    width: 50%;
+    height: 9em;
+    background-color: #012;
+}
 
+div#m2
+{
+    width: 55%;
+    height: 9em;
+    background-color: #201;
+}
+
+div#m3
+{
+    width: 60%;
+    height: 9em;
+    background-color: #120;
+}
+
+div#m4
+{
+    width: 65%;
+    height: 9em;
+    background-color: #102;
 }
