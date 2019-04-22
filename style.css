@@ -11,7 +11,7 @@ body
 h1
 {
     font-size: 4.5em;
-    
+
 }
 
 h1#name
@@ -21,7 +21,47 @@ h1#name
     color: #fff;
 }
 
-div.english
+div#english
 {
-    width: 5em;
+    width: 20em;
+    height: 9em;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+div#french
+{
+    width: 20em;
+    height: 9em;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+a
+{
+    font-size: 3em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #838383;
+    position: relative;
+    top: 30%;
+}
+a.en
+{
+    left: 20%;
+}
+
+a.fr
+{
+    left: 23%;
+}
+
+div.language:hover
+{
+    background-color: #fff;
+    color: #000;
 }
