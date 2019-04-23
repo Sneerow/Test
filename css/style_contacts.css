@@ -8,25 +8,10 @@ body
     background-color: #000;
 }
 
-::-webkit-scrollbar 
+::-webkit-scrollbar
 {
     display: none;
 }
-
-/* div#parent
-{
-height: 100%;
-width: 100%;
-overflow: hidden;
-position: relative;
-}
-
-div#child
-{
-position: absolute;
-right: -15px;
-overflow: auto;
-} */
 
 h1
 {
@@ -180,10 +165,6 @@ div#m4
     background-color: #102;
 }
 
-div.pos
-{
-}
-
 div.scroll
 {
     margin-left: 95%;
@@ -191,17 +172,17 @@ div.scroll
     top: 50%;
     background-color: #fff;
     border-radius: 100% / 75%;
-    width: 65px;
-    height: 80px;
+    width: 50px;
+    height: 70px;
     box-shadow: -5px 0px 4px #555, 5px 0px 4px #555, 0px -5px 4px #555, 0px 5px  4px #555;
 }
 
 div.scroll img
 {
-    width: 50px;
-    height: auto;
+    width: 45px;
+    height: 50px;
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%, -10%);
 }
