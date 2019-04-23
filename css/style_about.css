@@ -11,11 +11,13 @@ body
 h2
 {
     font-size: 200%;
+    color: #fff;
 }
 
 p
 {
     font-size: 100%;
+    color: #fff;
 }
 
 div.chara
@@ -58,7 +60,8 @@ a#menu2
 a#menu3
 {
     text-decoration: none;
-    color: #838383;
+    font-weight: bold;
+    color: #fff;
     position: absolute;
     left: 33%;
     transform: translate(-50%);
@@ -67,8 +70,7 @@ a#menu3
 a#menu4
 {
     text-decoration: none;
-    font-weight: bold;
-    color: #fff;
+    color: #838383;
     position: absolute;
     left: 44%;
     transform: translate(-50%);
@@ -110,51 +112,32 @@ a#menu8
     transform: translate(-50%);
 }
 
-div.member
+div.content
 {
-    width: 50%;
+    margin-top: 2em;
+    width: 35%;
     position: absolute;
-    left: 40%;
+    left: 29%;
 }
 
-div.member *
+div.content div
 {
-    text-decoration: none;
-    color: #fff;
-    margin-bottom: 4%;
+    height: 10em;
+    position: relative;
+    margin-bottom: 10%;
+    background-color: #555;
 }
 
-div.member h2,ul
+div.content h2
 {
     position: relative;
-    top: 20%;
+    top: 30%;
     left: 1em;
 }
 
-div#m1
+div.content p
 {
-    width: 40%;
-    height: 9em;
-    background-color: #012;
-}
-
-div#m2
-{
-    width: 70%;
-    height: 9em;
-    background-color: #201;
-}
-
-div#m3
-{
-    width: 50%;
-    height: 9em;
-    background-color: #120;
-}
-
-div#m4
-{
-    width: 60%;
-    height: 9em;
-    background-color: #102;
+    position: relative;
+    top: 15%;
+    left: 2.1em;
 }
