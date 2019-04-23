@@ -8,6 +8,11 @@ body
     background-color: #000;
 }
 
+::-webkit-scrollbar
+{
+    display: none;
+}
+
 p
 {
     font-size: 100%;

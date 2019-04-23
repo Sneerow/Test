@@ -6,8 +6,27 @@
 body
 {
     background-color: #000;
-    /* overflow: hidden; */
 }
+
+::-webkit-scrollbar 
+{
+    display: none;
+}
+
+/* div#parent
+{
+height: 100%;
+width: 100%;
+overflow: hidden;
+position: relative;
+}
+
+div#child
+{
+position: absolute;
+right: -15px;
+overflow: auto;
+} */
 
 h1
 {
