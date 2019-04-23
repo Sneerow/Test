@@ -9,7 +9,7 @@ body
     /* overflow: hidden; */
 }
 
-h2
+h1
 {
     font-size: 200%;
 }
@@ -21,7 +21,7 @@ p
 
 div.chara
 {
-    margin-top: 5em;
+    margin-top: 3em;
     width: auto;
     margin-bottom: 2em;
 }
@@ -111,7 +111,7 @@ a#menu8
     transform: translate(-50%);
 }
 
-div.member
+div.members
 {
     margin-top: 2em;
     width: 50%;
@@ -119,14 +119,14 @@ div.member
     left: 40%;
 }
 
-div.member *
+div.members *
 {
     text-decoration: none;
     color: #fff;
     margin-bottom: 4%;
 }
 
-div.member h2,ul
+div.members h1,ul
 {
     position: relative;
     top: 20%;
