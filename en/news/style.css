@@ -8,14 +8,6 @@ body
     background-color: #000;
 }
 
-h1#name
-{
-    font-size: 500%;
-    text-align: center;
-    background-color: #033d9a;
-    color: #fff;
-}
-
 p
 {
     font-size: 100%;
@@ -38,12 +30,6 @@ div.button
 {
     width: auto;
     height: auto;
-}
-
-div#title
-{
-    width: auto;
-    margin-top: 5.5em;
 }
 
 a#menu1
