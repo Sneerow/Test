@@ -160,3 +160,29 @@ div#m4
     height: 9em;
     background-color: #102;
 }
+
+div.pos
+{
+}
+
+div.scroll
+{
+    margin-left: 95%;
+    position: fixed;
+    top: 50%;
+    background-color: #fff;
+    border-radius: 100% / 75%;
+    width: 65px;
+    height: 80px;
+    box-shadow: -5px 0px 4px #555, 5px 0px 4px #555, 0px -5px 4px #555, 0px 5px  4px #555;
+}
+
+div.scroll img
+{
+    width: 50px;
+    height: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
