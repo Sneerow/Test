@@ -10,11 +10,18 @@ body
 
 h1
 {
-    font-size: 500%;
+    font-size: 400%;
     text-align: center;
-    background-color: #033d9a;
-    color: #fff;
+    position: relative;
+    top: 15%;
+    color: #000;
     margin-top: 10%;
+}
+
+div#title
+{
+    height: 6.125em;
+    background-color: #033d9a;
 }
 
 div#english
