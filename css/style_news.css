@@ -37,13 +37,17 @@ div.button
     height: auto;
 }
 
-a#menu1
+a.menu
 {
     text-decoration: none;
     color: #838383;
     position: absolute;
-    left: 11%;
     transform: translate(-50%);
+}
+
+a#menu1
+{
+    left: 11%;
 }
 
 a#menu2
