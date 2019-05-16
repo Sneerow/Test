@@ -1,0 +1,70 @@
+*
+{
+    font-family: "Century Gothic" ,verdana, sans-serif;
+}
+
+body
+{
+    background-color: #000;
+}
+
+h1
+{
+    font-size: 400%;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    color: #000;
+    margin-top: 10%;
+}
+
+div#title
+{
+    height: 6.125em;
+    background-color: #033d9a;
+}
+
+div#english
+{
+    width: 20em;
+    height: 9em;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+div#french
+{
+    width: 20em;
+    height: 9em;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+a
+{
+    font-size: 300%;
+    text-decoration: none;
+    font-weight: bold;
+    color: #838383;
+    position: relative;
+    top: 30%;
+}
+a.en
+{
+    left: 20%;
+}
+
+a.fr
+{
+    left: 23%;
+}
+
+div.language:hover
+{
+    background-color: #fff;
+    color: #000;
+}
