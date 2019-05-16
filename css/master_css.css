@@ -144,12 +144,103 @@ a#menuAbout
 
 /* ABOUT */
 
+a#menuAbout
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left: 33%;
+    transform: translate(-50%);
+}
+
+div.content
+{
+    margin-top: 2em;
+    margin-bottom: 4%;
+    width: 45%;
+    position: absolute;
+    left: 29%;
+}
+
+div.content div
+{
+    height: 10em;
+    position: relative;
+    margin-bottom: 9%;
+    background-color: #222;
+}
+
+div.content h1
+{
+    position: relative;
+    top: 30%;
+    left: 1em;
+}
+
+div.content p
+{
+    position: relative;
+    top: 15%;
+    left: 2.1em;
+}
+
 /* CONTACTS */
+
+a#menuAbout
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left: 44%;
+    transform: translate(-50%);
+}
 
 /* DOWNLOADS */
 
+a#menuAbout
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left: 55%;
+    transform: translate(-50%);
+}
+
 /*CREDITS */
+
+a#menuAbout
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left: 66%;
+    transform: translate(-50%);
+}
 
 /* ENGLISH */
 
+a#menuEnglish
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left: 77%;
+    transform: translate(-50%);
+}
+
 /* FRENCH */
+
+a#menuFrench
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left: 88%;
+    transform: translate(-50%);
+}
