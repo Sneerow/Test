@@ -24,47 +24,34 @@ div#title
     background-color: #033d9a;
 }
 
-div#english
-{
-    width: 20em;
-    height: 9em;
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    transform: translate(-50%, -50%);
-}
-
-div#french
-{
-    width: 20em;
-    height: 9em;
-    position: absolute;
-    top: 50%;
-    left: 65%;
-    transform: translate(-50%, -50%);
-}
-
 a
 {
+    width: 100%;
+    height: 100%;
     font-size: 300%;
     text-decoration: none;
     font-weight: bold;
+    text-align: center;
     color: #838383;
     position: relative;
-    top: 30%;
-}
-a.en
-{
-    left: 20%;
+    top: 25%;
 }
 
-a.fr
+body > div.language
 {
-    left: 23%;
+    background: #000;
+    color: #fff;
+    font-size: 125%;
+    height: 7em;
+    width: 15em;
+    text-align: center;
+    position: sticky;
+    left: 50%;
+    margin-top: 5em;
+    transform: translate(-50%);
+    transition: 0.5s;
 }
 
-div.language:hover
-{
-    background-color: #fff;
-    color: #000;
+div.language:hover {
+  background: #fff;
 }
