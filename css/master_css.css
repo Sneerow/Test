@@ -34,6 +34,10 @@ a#menu7{left: 77%;}
 
 a#menu8{left: 88%;}
 
+span#menuEnglish a{text-decoration: none; font-weight: bold; color: #fff;}
+
+span#menuFrench a{text-decoration: none; font-weight: bold; color: #fff;}
+
 /*--------------------------- HOME ---------------------------*/
 
 span#menuHome a{text-decoration: none; font-weight: bold; color: #fff;}
