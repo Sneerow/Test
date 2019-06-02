@@ -67,6 +67,12 @@ div.octo img
 
 span#menuNews a{text-decoration: none; font-weight: bold; color: #fff;}
 
+body#news p
+{
+    font-size: 100%;
+}
+
+
 /*--------------------------- ABOUT ---------------------------*/
 
 span#menuAbout a{text-decoration: none; font-weight: bold; color: #fff;}
