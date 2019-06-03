@@ -3,63 +3,39 @@
     <head>
         <meta charset="utf-8">
         <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
-        <link rel="stylesheet" href="../../css/style_credits.css">
+        <link rel="stylesheet" href="../css/master_css.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <title>Crédits - Pointless Adventure</title>
     </head>
-    <body>
+    <body id="credits">
         <div class="chara">
             <p>
-                <a href="artboard_2.png"><img src="artboard_2.png" alt="Characters" /></a>
+                <img src="../images/artboard_2.png" alt="Characters" />
             </p>
         </div>
 
         <div class="button">
             <p>
-                <a href="../index.html" title="Page" id="menu1">ACCUEIL</a>
-                <a href="../actualites/actualites.html" title="Page" id="menu2">ACTUALITÉS</a>
-                <a href="../a_propos/a_propos.html" title="Page" id="menu3">À PROPOS</a>
-                <a href="../contacts/contacts.html" title="Page" id="menu4">CONTACTS</a>
-                <a href="../telechargements/telechargements.html" title="Page" id="menu5">TÉLÉCHARGEMENTS</a>
-                <a href="credits.html" title="Page" id="menu6">CRÉDITS</a>
-                <a href="../../en/credits/credits.html" title="Page" id="menu7">ANGLAIS</a>
-                <a href="credits.html" title="Page" id="menu8">FRANÇAIS</a>
+                <a href="index.html" title="Page" class="menu" id="menu1">ACCUEIL</a>
+                <a href="actualites.html" title="Page" class="menu" id="menu2">ACTUALITÉS</a>
+                <a href="a_propos.html" title="Page" class="menu" id="menu3">À PROPOS</a>
+                <a href="contacts.html" title="Page" class="menu" id="menu4">CONTACTS</a>
+                <a href="telechargements.html" title="Page" class="menu" id="menu5">TÉLÉCHARGEMENTS</a>
+                <span id="menuCredits"><a href="credits.html" title="Page" class="menu" id="menu6">CRÉDITS</a></span>
+                <a href="../en/credits.html" title="Page" class="menu" id="menu7">ANGLAIS</a>
+                <span id="menuFrench"><a href="credits.html" title="Page" class="menu" id="menu8">FRANÇAIS</a></span>
             </p>
         </div>
 
-        <div class="content">
-            <div id="soft">
-                <h1>Logiciels utilisés</h1>
-                <p>
-                    <ul>
-                        <li>Unity</li>
-                        <li>Aseprite</li>
-                    </ul>
-                </p>
-            </div>
-
-            <div id="other">
-                <h1>Musique et divers</h1>
-                <p>
-                    pour le moment rien
-                </p>
-            </div>
-        </div>
-
-<!--        <div class="scroll">
+        <div id="unity">
             <p>
-                <a><img src="mouse-scroll.png" alt="Mouse scroll" /></a>
-            </p>
-        </div> -->
-
-        <div class="unity">
-            <p>
-                <a href="unity.jpg"><img src="unity.jpg" alt="Unity logo" /></a>
+                <img src="../images/unity.png" alt="Unity logo" />
             </p>
         </div>
 
-        <div class="ase">
+        <div id="ase">
             <p>
-                <a href="ase.png"><img src="ase.png" alt="Aseprite logo" /></a>
+                <img src="../images/ase.png" alt="Aseprite logo" />
             </p>
         </div>
 
@@ -71,5 +47,12 @@
                 </ul>
             </p>
         </div> -->
+
+        <!--<div class="scroll">
+            <p>
+                <a><img src="mouse-scroll.png" alt="Mouse scroll" /></a>
+            </p>
+        </div> -->
+
     </body>
 </html>

@@ -109,6 +109,7 @@ body#about div.content
 body#about div.content div
 {
     height: 10em;
+    width: auto;
     position: relative;
     margin-bottom: 9%;
     background-color: #222;
@@ -147,7 +148,7 @@ div.members
     margin-top: 2.1em;
     width: 50%;
     position: absolute;
-    left: 40%;
+    left: 38%;
 }
 
 div.members *
@@ -157,40 +158,46 @@ div.members *
     margin-bottom: 4%;
 }
 
-div.members h1,ul
+div.members h1
 {
     position: relative;
-    top: 20%;
-    left: 1em;
+    top: 30%;
+    left: 2.1em;
+}
+
+div.members a
+{
+    margin-left: 4.1em;
 }
 
 div#m1
 {
     width: 40%;
-    height: 9em;
+    height: 10em;
     background-color: #012;
 }
 
 div#m2
 {
     width: 70%;
-    height: 9em;
+    height: 10em;
     background-color: #201;
 }
 
 div#m3
 {
     width: 50%;
-    height: 9em;
+    height: 10em;
     background-color: #120;
 }
 
 div#m4
 {
     width: 60%;
-    height: 9em;
+    height: 10em;
     background-color: #102;
 }
+
 /*--------------------------- DOWNLOADS ---------------------------*/
 
 span#menuDownloads a{text-decoration: none; font-weight: bold; color: #fff;}
