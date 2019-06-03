@@ -46,59 +46,29 @@ span#menuFrench a{text-decoration: none; font-weight: bold; color: #fff;}
 
 span#menuHome a{text-decoration: none; font-weight: bold; color: #fff;}
 
-h1#name
-{
-    font-size: 500%;
-    text-align: center;
-    background-color: #033d9a;
-    color: #fff;
-}
+h1#name{font-size: 500%; text-align: center; background-color: #033d9a; color: #fff;}
 
-div#title
-{
-    width: auto;
-    margin-top: 5.5em;
-}
+div#title{width: auto; margin-top: 5.5em;}
 
-div.octo
-{
-    text-align: center;
-    width: auto;
-}
+div.octo{text-align: center; width: auto;}
 
-div.octo img
-{
-    width: 18.5%;
-}
+div.octo img{width: 18.5%;}
 
 /*--------------------------- NEWS ---------------------------*/
 
 span#menuNews a{text-decoration: none; font-weight: bold; color: #fff;}
 
-body#news p
-{
-    font-size: 100%;
-}
-
+body#news p{font-size: 100%;}
 
 /*--------------------------- ABOUT ---------------------------*/
 
 span#menuAbout a{text-decoration: none; font-weight: bold; color: #fff;}
 
-body#about h1
-{
-    font-size: 200%;
-    color: #fff;
-}
+body#about h1{font-size: 200%; color: #fff;}
 
-body#about p
-{
-    font-size: 100%;
-    color: #fff;
-}
+body#about p{font-size: 100%; color: #fff;}
 
-body#about div.content
-{
+body#about div.content{
     margin-top: 2.1em;
     margin-bottom: 4%;
     width: 45%;
@@ -106,8 +76,7 @@ body#about div.content
     left: 29%;
 }
 
-body#about div.content div
-{
+body#about div.content div{
     height: 10em;
     width: auto;
     position: relative;
@@ -115,149 +84,57 @@ body#about div.content div
     background-color: #222;
 }
 
-body#about div.content h1
-{
-    position: relative;
-    top: 30%;
-    left: 1em;
-}
+body#about div.content h1{position: relative; top: 30%; left: 1em;}
 
-body#about div.content p
-{
-    position: relative;
-    top: 15%;
-    left: 2.1em;
-}
+body#about div.content p{position: relative; top: 15%; left: 2.1em;}
 
 /*--------------------------- CONTACTS ---------------------------*/
 
 span#menuContacts a{text-decoration: none; font-weight: bold; color: #fff;}
 
-body#contacts h1
-{
-    font-size: 200%;
-}
+body#contacts h1{font-size: 200%;}
 
-body#contacts p
-{
-    font-size: 100%;
-}
+body#contacts p{font-size: 100%;}
 
-div.members
-{
-    margin-top: 2.1em;
-    width: 50%;
-    position: absolute;
-    left: 38%;
-}
+div.members{margin-top: 2.1em; width: 50%; position: absolute; left: 38%;}
 
-div.members *
-{
-    text-decoration: none;
-    color: #fff;
-    margin-bottom: 4%;
-}
+div.members *{text-decoration: none; color: #fff; margin-bottom: 4%;}
 
-div.members h1
-{
-    position: relative;
-    top: 30%;
-    left: 2em;
-}
+div.members h1{position: relative; top: 30%; left: 2.2em;}
 
-div#m1
-{
-    width: 40%;
-    height: 10em;
-    background-color: #012;
-}
+div#m1{width: 40%; height: 10em; background-color: #012;}
 
-div#m2
-{
-    width: 70%;
-    height: 10em;
-    background-color: #201;
-}
+div#m2{width: 70%; height: 10em; background-color: #201;}
 
-div#m3
-{
-    width: 50%;
-    height: 10em;
-    background-color: #120;
-}
+div#m3{width: 50%; height: 10em; background-color: #120;}
 
-div#m4
-{
-    width: 60%;
-    height: 10em;
-    background-color: #102;
-}
+div#m4{width: 60%; height: 10em; background-color: #102;}
 
-div.mb
-{
-    position: relative;
-    top: 25%;
-    left: 4em;
-}
+div.mb{position: relative; top: 25%; left: 4.4em;}
 
 /*--------------------------- DOWNLOADS ---------------------------*/
 
 span#menuDownloads a{text-decoration: none; font-weight: bold; color: #fff;}
 
-body#downloads div.content
-{
-    margin-top: 2em;
-    width: 50%;
-    position: absolute;
-    left: 49.5%;
-}
+body#downloads div.content{margin-top: 2em; width: 50%; position: absolute; left: 49.5%;}
 
-body#downloads div.content *
-{
-    text-decoration: none;
-    color: #fff;
-    margin-bottom: 4%;
-}
+body#downloads div.content *{text-decoration: none; color: #fff; margin-bottom: 4%;}
 
-div#game
-{
-    width: 50%;
-    height: 9em;
-    background-color: #273844;
-}
+div#game{width: 50%; height: 9em; background-color: #273844;}
 
-div#reports
-{
-    width: 80%;
-    height: 21em;
-    background-color: #012444;
-}
+div#reports{width: 80%; height: 21em; background-color: #012444;}
 
-div#game h1, ul#g
-{
-    position: relative;
-    top: 20%;
-    left: 1em;
-}
+div#game h1, ul#g{position: relative; top: 20%; left: 1em;}
 
-div#reports h1, ul#r
-{
-    position: relative;
-    top: 13%;
-    left: 1em;
-}
+div#reports h1, ul#r{position: relative; top: 13%; left: 1em;}
 
 /*--------------------------- CREDITS ---------------------------*/
 
 span#menuCredits a{text-decoration: none; font-weight: bold; color: #fff;}
 
-body#credits p
-{
-    font-size: 100%;
-}
+body#credits p{font-size: 100%;}
 
-body#credits div#unity
-{
+body#credits div#unity{
     text-align: center;
     width: 30%;
     height: 15%;
@@ -266,14 +143,9 @@ body#credits div#unity
     left: 10%;
 }
 
-body#credits div#unity img
-{
-    width: 100%;
-    height: auto;
-}
+body#credits div#unity img{width: 100%; height: auto;}
 
-body#credits div#ase
-{
+body#credits div#ase{
     text-align: center;
     width: 30%;
     height: 15%;
@@ -282,17 +154,11 @@ body#credits div#ase
     right: 10%;
 }
 
-body#credits div#ase img
-{
-
-    width: 100%;
-    height: auto;
-}
+body#credits div#ase img{width: 100%; height: auto;}
 
 /*--------------------------- ENGLISH ---------------------------*/
 
-a#menuEnglish
-{
+a#menuEnglish{
     text-decoration: none;
     font-weight: bold;
     color: #fff;
@@ -303,8 +169,7 @@ a#menuEnglish
 
 /*--------------------------- FRENCH ---------------------------*/
 
-a#menuFrench
-{
+a#menuFrench{
     text-decoration: none;
     font-weight: bold;
     color: #fff;
