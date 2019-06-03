@@ -95,7 +95,7 @@ body#about p
 
 body#about div.content
 {
-    margin-top: 2em;
+    margin-top: 2.1em;
     margin-bottom: 4%;
     width: 45%;
     position: absolute;
@@ -140,7 +140,7 @@ body#contacts p
 
 div.members
 {
-    margin-top: 2em;
+    margin-top: 2.1em;
     width: 50%;
     position: absolute;
     left: 40%;
