@@ -162,12 +162,7 @@ div.members h1
 {
     position: relative;
     top: 30%;
-    left: 2.1em;
-}
-
-div.members a
-{
-    margin-left: 4.1em;
+    left: 2em;
 }
 
 div#m1
@@ -196,6 +191,13 @@ div#m4
     width: 60%;
     height: 10em;
     background-color: #102;
+}
+
+div.mb
+{
+    position: relative;
+    top: 25%;
+    left: 4em;
 }
 
 /*--------------------------- DOWNLOADS ---------------------------*/
