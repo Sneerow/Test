@@ -4,56 +4,82 @@
         <meta charset="utf-8">
         <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png" />
         <link rel="stylesheet" href="../cssbin/master_css.css" />
-        <link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../cssbin/jquery.pagepiling.css" />
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../jsbin/jquery.pagepiling.min.js"></script>
+        <script type="text/javascript">
+            var deleteLog = false;
+
+            $(document).ready(function() {
+                $('#pagepiling').pagepiling({
+                    menu: '#menu',
+                    anchors: ['page1', 'page2', 'page3'],
+                    navigation: {
+                        'textColor': '#f2f2f2',
+                        'bulletsColor': '#ccc',
+                        'position': 'right',
+                        'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4']
+                    }
+                });
+            });
+        </script>
+
         <title>Home - Unknown Adventure</title>
     </head>
     <body id="home">
-        <div class="chara">
-            <p>
-                <img src="../images/artboard_2.png" alt="Characters" />
-            </p>
+        <div id="pagepiling">
+            <div class="section" id="section1">
+                <div class="chara">
+                    <p>
+                        <img src="../images/artboard_2.png" alt="Characters" />
+                    </p>
+                </div>
+
+                <div class="button">
+                    <p>
+                        <span id="menuHome"><a href="index.html" title="Page" class="menu" id="menu1">HOME</a></span>
+                        <a href="news.html" title="Page" class="menu" id="menu2">NEWS</a>
+                        <a href="about.html" title="Page" class="menu" id="menu3">ABOUT</a>
+                        <a href="contacts.html" title="Page" class="menu" id="menu4">CONTACTS</a>
+                        <a href="downloads.html" title="Page" class="menu" id="menu5">DOWNLOADS</a>
+                        <a href="credits.html" title="Page" class="menu" id="menu6">CREDITS</a>
+                        <span id="menuEnglish"><a href="index.html" title="Page" class="menu" id="menu7">ENGLISH</a></span>
+                        <a href="../fr/index.html" title="Page" class="menu" id="menu8">FRENCH</a>
+                    </p>
+                </div>
+
+                <div id="title">
+                    <h1 id="name">Pointless Adventure</h1>
+                </div>
+
+                <div class="octo">
+                    <p class="img">
+                        <img src="../images/octo.gif" alt="Octopus" />
+                        <img src="../images/roboto.gif" alt="Robot" />
+                        <img src="../images/dragon.gif" alt="Dragon" />
+                        <img src="../images/roboto.gif" alt="Robot" />
+                        <img src="../images/octo.gif" alt="Octopus" />
+                    </p>
+                </div>
+
+                <div class="scroll-home">
+                    <p>
+                        <a><img src="../images/mouse-scroll.png" alt="Mouse scroll" /></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="section" id="section2">
+                <div id="trailer">
+                    <video id='my-video' class='video-js' controls preload='metadata' width='640' height='264' poster='../images/game_logo.png' data-setup='{}'>
+                        <source src='../media/trailer-pointless-adventure_v1.webm' type='video/webm'>
+                        <source src='../media/trailer-pointless-adventure_v1.mp4' type='video/mp4'>
+                    </video>
+                </div>
+            </div>
         </div>
 
-        <div class="button">
-            <p>
-                <span id="menuHome"><a href="index.html" title="Page" class="menu" id="menu1">HOME</a></span>
-                <a href="news.html" title="Page" class="menu" id="menu2">NEWS</a>
-                <a href="about.html" title="Page" class="menu" id="menu3">ABOUT</a>
-                <a href="contacts.html" title="Page" class="menu" id="menu4">CONTACTS</a>
-                <a href="downloads.html" title="Page" class="menu" id="menu5">DOWNLOADS</a>
-                <a href="credits.html" title="Page" class="menu" id="menu6">CREDITS</a>
-                <span id="menuEnglish"><a href="index.html" title="Page" class="menu" id="menu7">ENGLISH</a></span>
-                <a href="../fr/index.html" title="Page" class="menu" id="menu8">FRENCH</a>
-            </p>
-        </div>
-
-        <div id="title">
-            <h1 id="name">Pointless Adventure</h1>
-        </div>
-
-        <div class="octo">
-            <p class="img">
-                <img src="../images/octo.gif" alt="Octopus" />
-                <img src="../images/octo.gif" alt="Octopus" />
-                <img src="../images/octo.gif" alt="Octopus" />
-                <img src="../images/octo.gif" alt="Octopus" />
-                <img src="../images/octo.gif" alt="Octopus" />
-            </p>
-        </div>
-
-        <video id='trailer' class='video-js' controls preload='auto' width='640' height='264'
-            poster='.jpg' data-setup='{}'>
-                <source src='../media/trailer-pointless-adventure_v1.webm' type='video/webm'>
-                <source src='../media/trailer-pointless-adventure_v1.mp4' type='video/mp4'>
-                <p class='vjs-no-js'>
-                    To view this video please enable JavaScript, and consider upgrading to a web browser that
-                    <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
-                </p>
-        </video>
-
-        <script src='https://vjs.zencdn.net/7.5.4/video.js'></script>
 
         <!-- <iframe id="trailer" type="text/html" width="640" height="360"
         src="https://developers.google.com/youtube/player_parameters?hl=fr"
@@ -77,11 +103,5 @@
                 return youtube.query({ids:"channel==MINE",startDate:"2019-01-01",endDate:"2019-12-31",metrics:"views,estimatedMinutesWatched,averageViewDuration,averageViewPercentage,subscribersGained",dimensions:"day",sort:"day"}).then(function(e){},function(e){console.error("Execute error",e)})}
             </script>
         </iframe> -->
-
-<!--        <div class="scroll">
-            <p>
-                <a><img src="mouse-scroll.png" alt="Mouse scroll" /></a>
-            </p>
-        </div> -->
     </body>
 </html>
