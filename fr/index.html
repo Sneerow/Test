@@ -7,6 +7,7 @@
         <link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- <script type="text/javscript" src="../jsbin/afterglow.min.js"></script> -->
         <title>Accueil - Pointless Adventure</title>
     </head>
     <body id="home">
@@ -36,47 +37,44 @@
         <div class="octo">
             <p class="img">
                 <img src="../images/octo.gif" alt="Poulpe" />
+                <img src="../images/roboto.gif" alt="Robot" />
                 <img src="../images/octo.gif" alt="Poulpe" />
-                <img src="../images/octo.gif" alt="Poulpe" />
-                <img src="../images/octo.gif" alt="Poulpe" />
+                <img src="../images/roboto.gif" alt="Robot" />
                 <img src="../images/octo.gif" alt="Poulpe" />
             </p>
         </div>
 
-        <video id='trailer' class='video-js' controls preload='auto' width='640' height='264'
-            poster='.jpg' data-setup='{}'>
-                <source src='../media/trailer-pointless-adventure_v1.webm' type='video/webm'>
-                <source src='../media/trailer-pointless-adventure_v1.mp4' type='video/mp4'>
-                <p class='vjs-no-js'>
-                    To view this video please enable JavaScript, and consider upgrading to a web browser that
-                    <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
-                </p>
-        </video>
+        <div id="trailer">
+            <video id='my-video' class='video-js' controls preload='auto' width='640' height='264' poster='../images/game_logo.jpg' data-setup='{}'>
+            <source src='../media/trailer-pointless-adventure_v1.mp4' type='video/mp4'>
+            <source src='../media/trailer-pointless-adventure_v1.webm' type='video/webm'>
+            </video>
+        </div>
 
-        <script src='https://vjs.zencdn.net/7.5.4/video.js'></script>
+            <!-- <video class="afterglow" id="myvideo" width="1280" height="720" src="../media/trailer-pointless-adventure_v1.mp4" /></video> -->
 
-        <!-- <iframe id="trailer" type="text/html" width="640" height="360"
-        src="https://developers.google.com/youtube/player_parameters?hl=fr"
-        frameborder="0"/> -->
+            <!-- <iframe id="trailer" type="text/html" width="640" height="360"
+            src="https://developers.google.com/youtube/player_parameters?hl=fr"
+            frameborder="0"/> -->
 
-        <!-- <iframe allowFullScreen="allowFullScreen" src="https://theobviouscorp.com/stc.html" width="560" height="315" allowtransparency="true" frameborder="0">
-            <div style="text-align: center; margin: auto">
-                <div>all about
-                    <a id=n3HkVh6T href=https://www.comparetyres.com/help/winter-tyres>
-                        winter tyres
-                    </a> here
+            <!-- <iframe allowFullScreen="allowFullScreen" src="https://theobviouscorp.com/stc.html" width="560" height="315" allowtransparency="true" frameborder="0">
+                <div style="text-align: center; margin: auto">
+                    <div>all about
+                        <a id=n3HkVh6T href=https://www.comparetyres.com/help/winter-tyres>
+                            winter tyres
+                        </a> here
+                    </div>
+                    <div>
+                        <a id=n3HkVh6T href=https://www.ukgaynews.org.uk/joining-a-motorcycle-club-for-lgbts>
+                        motorcycle club
+                        </a>
+                    </div>
                 </div>
-                <div>
-                    <a id=n3HkVh6T href=https://www.ukgaynews.org.uk/joining-a-motorcycle-club-for-lgbts>
-                    motorcycle club
-                    </a>
-                </div>
-            </div>
-            <script>
-            function execute_YTvideo(){
-                return youtube.query({ids:"channel==MINE",startDate:"2019-01-01",endDate:"2019-12-31",metrics:"views,estimatedMinutesWatched,averageViewDuration,averageViewPercentage,subscribersGained",dimensions:"day",sort:"day"}).then(function(e){},function(e){console.error("Execute error",e)})}
-            </script>
-        </iframe> -->
+                <script>
+                function execute_YTvideo(){
+                    return youtube.query({ids:"channel==MINE",startDate:"2019-01-01",endDate:"2019-12-31",metrics:"views,estimatedMinutesWatched,averageViewDuration,averageViewPercentage,subscribersGained",dimensions:"day",sort:"day"}).then(function(e){},function(e){console.error("Execute error",e)})}
+                </script>
+            </iframe> -->
 
 <!--        <div class="scroll">
             <p>
