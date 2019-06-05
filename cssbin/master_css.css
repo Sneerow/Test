@@ -56,19 +56,19 @@ h1#name {font-size: 500%; text-align: center; background-color: #033d9a; color: 
 
 div#title {width: auto; margin-top: 5.5em;}
 
-div.octo {text-align: center; width: auto; margin-top: -2%;}
+div.octo {text-align: center; width: auto;}
 
 div.octo img {width: 18.5%; margin-left: 0.5%; margin-right: 0.5%;}
 
 @keyframes downUp {
     from {
         position: fixed;
-        top: 91%;
+        top: 92%;
         left: 50%;
     }
     to {
         position: fixed;
-        top: 93%;
+        top: 94%;
         left: 50%;
     }
 }
