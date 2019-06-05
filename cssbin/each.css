@@ -53,3 +53,18 @@ div#txt * {
     left: 1%;
     margin-right: 2%;
 }
+
+li {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+div#trailer video#my-video {
+    height: 10em;
+    width: auto;
+    position: relative;
+    margin-top: 1em;
+
+    left: 10%;
+    transform: translate(-50%, -7%);
+}
