@@ -2,10 +2,54 @@
 
 *:focus {outline: none;}
 
-body {margin: 0; padding: 0; background-color: #000;}
+body {margin: 0; padding: 0; background-color: #fff;}
 
 ::-webkit-scrollbar {display: none;}
 
-h1 {font-size: 200%;}
+h1 {font-size: 200%; color: #000;}
 
-p {font-size: 100%;}
+p {font-size: 100%; color: #000;}
+
+div#back {
+    width: 100px;
+    height: auto;
+    position: fixed;
+    left: 13%;
+    top: 50px;
+    transition: 1.5s;
+}
+
+div#back img {
+    width: 100px;
+    height: auto;
+}
+
+@@keyframes arrow {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-135deg);
+    }
+}
+
+div#back:hover {
+    transform: rotate(-135deg);
+    transition: 1.5s;
+}
+
+div#txt {
+    height: 100%;
+    min-width: 300px;
+    width: 70%;
+    background-color: #eee;
+    position: relative;
+    left: 20%;
+    margin-top: 50px;
+}
+
+div#txt * {
+    position: relative;
+    left: 1%;
+    margin-right: 2%;
+}

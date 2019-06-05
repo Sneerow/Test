@@ -119,13 +119,26 @@ body#news div.update p {color: #000;}
 
 body#news div.update a {color: #000;}
 
-body#news ul {list-style-type: none; margin: 0; padding: 0;}
+body#news ul {list-style-type: none; margin: 0; padding: 0; margin-bottom: 2em;}
 
-div.update {
+div.update li {
     background-color: #fff;
+    width: 45%;
+    height: 10em;
     position: relative;
-    left: 20%;
-    margin-top: 5em;
+    left: 18%;
+    margin-top: 5.1em;
+}
+
+div.update * {
+    position: relative;
+    top: 25%;
+    left: 1em;
+}
+
+div.more {
+    position: relative;
+    left: 75%;
 }
 
 /*--------------------------- ABOUT ---------------------------*/
