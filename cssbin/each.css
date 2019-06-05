@@ -1,9 +1,11 @@
-*
-{
-    font-family: "Century Gothic" ,verdana, sans-serif;
-}
+* {font-family: "Century Gothic" ,verdana, sans-serif; text-decoration: none;}
 
-body
-{
-    background-color: #000;
-}
+*:focus {outline: none;}
+
+body {margin: 0; padding: 0; background-color: #000;}
+
+::-webkit-scrollbar {display: none;}
+
+h1 {font-size: 200%;}
+
+p {font-size: 100%;}

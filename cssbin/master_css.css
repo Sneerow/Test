@@ -1,6 +1,8 @@
 /*--------------------------- GLOBAL ---------------------------*/
 
-* {font-family: "Century Gothic" ,verdana, sans-serif;}
+* {font-family: "Century Gothic" ,verdana, sans-serif; text-decoration: none;}
+
+*:focus {outline: none;}
 
 body {margin: 0; padding: 0; background-color: #000;}
 
@@ -10,9 +12,11 @@ body {margin: 0; padding: 0; background-color: #000;}
 
 div.scroll img{width: 45px; height: 50px; position: relative; top: 50%; left: 50%; transform: translate(-50%, -10%);} */
 
-h1 {font-size: 200%;}
+h1 {font-size: 200%; color: #fff;}
 
-p {font-size: 100%;}
+p {font-size: 100%; color: #fff;}
+
+a {color: #fff}
 
 div.chara {margin-top: 4.7em; width: auto; margin-bottom: 2em;}
 
@@ -38,9 +42,9 @@ a#menu7 {left: 77%;}
 
 a#menu8 {left: 88%;}
 
-span#menuEnglish a {text-decoration: none; font-weight: bold; color: #fff;}
+span#menuEnglish a {font-weight: bold; color: #fff;}
 
-span#menuFrench a {text-decoration: none; font-weight: bold; color: #fff;}
+span#menuFrench a {font-weight: bold; color: #fff;}
 
 /*--------------------------- HOME ---------------------------*/
 
@@ -50,9 +54,9 @@ span#menuFrench a {text-decoration: none; font-weight: bold; color: #fff;}
 #section1 {background-image: url(../images/black_bg.jpg);}
 #section2 {background-image: url(../images/black_bg.jpg); padding: 6% 0 0 0;}
 
-span#menuHome a {text-decoration: none; font-weight: bold; color: #fff;}
+span#menuHome a {font-weight: bold; color: #fff;}
 
-h1#name {font-size: 500%; text-align: center; background-color: #033d9a; color: #fff;}
+h1#name {font-size: 500%; text-align: center; background-color: #033d9a;}
 
 div#title {width: auto; margin-top: 5.5em;}
 
@@ -100,22 +104,33 @@ div#trailer video#my-video {
     width: auto;
     position: relative;
     left: 50%;
-    transform: translate(-50%, -10%);
+    transform: translate(-50%, -7%);
 }
 
 /*--------------------------- NEWS ---------------------------*/
 
-span#menuNews a {text-decoration: none; font-weight: bold; color: #fff;}
+span#menuNews a {font-weight: bold; color: #fff;}
 
 body#news p {font-size: 100%;}
 
+body#news div.update h1 {color: #000;}
+
+body#news div.update p {color: #000;}
+
+body#news div.update a {color: #000;}
+
+body#news ul {list-style-type: none; margin: 0; padding: 0;}
+
+div.update {
+    background-color: #fff;
+    position: relative;
+    left: 20%;
+    margin-top: 5em;
+}
+
 /*--------------------------- ABOUT ---------------------------*/
 
-span#menuAbout a {text-decoration: none; font-weight: bold; color: #fff;}
-
-body#about h1 {font-size: 200%; color: #fff;}
-
-body#about p {font-size: 100%; color: #fff;}
+span#menuAbout a {font-weight: bold; color: #fff;}
 
 body#about div.content {
     margin-top: 2.1em;
@@ -139,15 +154,11 @@ body#about div.content p {position: relative; top: 15%; left: 2.1em;}
 
 /*--------------------------- CONTACTS ---------------------------*/
 
-span#menuContacts a {text-decoration: none; font-weight: bold; color: #fff;}
-
-body#contacts h1 {font-size: 200%;}
-
-body#contacts p {font-size: 100%;}
+span#menuContacts a {font-weight: bold; color: #fff;}
 
 div.members {margin-top: 2.1em; width: 50%; position: absolute; left: 38%;}
 
-div.members * {text-decoration: none; color: #fff; margin-bottom: 4%;}
+div.members * {color: #fff; margin-bottom: 4%;}
 
 div.members h1 {position: relative; top: 30%; left: 2.2em;}
 
@@ -163,11 +174,11 @@ div.mb {position: relative; top: 25%; left: 4.4em;}
 
 /*--------------------------- DOWNLOADS ---------------------------*/
 
-span#menuDownloads a {text-decoration: none; font-weight: bold; color: #fff;}
+span#menuDownloads a {font-weight: bold; color: #fff;}
 
 body#downloads div.content {margin-top: 2em; width: 50%; position: absolute; left: 49.5%;}
 
-body#downloads div.content * {text-decoration: none; color: #fff; margin-bottom: 4%;}
+body#downloads div.content * {color: #fff; margin-bottom: 4%;}
 
 div#game {width: 50%; height: 13em; background-color: #273844;}
 
@@ -179,7 +190,7 @@ div#reports h1, ul#r {position: relative; top: 13%; left: 1em;}
 
 /*--------------------------- CREDITS ---------------------------*/
 
-span#menuCredits a {text-decoration: none; font-weight: bold; color: #fff;}
+span#menuCredits a {font-weight: bold; color: #fff;}
 
 body#credits p {font-size: 100%;}
 
@@ -208,7 +219,6 @@ body#credits div#ase img {width: 100%; height: auto;}
 /*--------------------------- ENGLISH ---------------------------*/
 
 a#menuEnglish {
-    text-decoration: none;
     font-weight: bold;
     color: #fff;
     position: absolute;
@@ -219,7 +229,6 @@ a#menuEnglish {
 /*--------------------------- FRENCH ---------------------------*/
 
 a#menuFrench {
-    text-decoration: none;
     font-weight: bold;
     color: #fff;
     position: absolute;
