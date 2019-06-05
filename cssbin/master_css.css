@@ -2,7 +2,7 @@
 
 * {font-family: "Century Gothic" ,verdana, sans-serif;}
 
-body {background-color: #000;}
+body {margin: 0; padding: 0; background-color: #000;}
 
 ::-webkit-scrollbar {display: none;}
 
@@ -169,7 +169,7 @@ body#downloads div.content {margin-top: 2em; width: 50%; position: absolute; lef
 
 body#downloads div.content * {text-decoration: none; color: #fff; margin-bottom: 4%;}
 
-div#game {width: 50%; height: 9em; background-color: #273844;}
+div#game {width: 50%; height: 13em; background-color: #273844;}
 
 div#reports {width: 80%; height: 21em; background-color: #012444;}
 
